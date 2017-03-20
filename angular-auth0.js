@@ -22,6 +22,7 @@
       this.audience = config.audience;
       this.responseType = config.responseType;
       this.responseMode = config.responseMode;
+      this.leeway = config.leeway;
       this._disableDeprecationWarnings = config._disableDeprecationWarnings;
     }
 
@@ -35,6 +36,7 @@
         audience: this.audience,
         responseType: this.responseType,
         responseMode: this.responseMode,
+        leeway: this.leeway,
         _disableDeprecationWarnings: this._disableDeprecationWarnings
       });
       var webAuth = {};
